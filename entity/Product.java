@@ -7,6 +7,7 @@ public class Product {
     private float weight;
     private String color;
     private Integer productCount;
+    public final static String PRODUCT_SEPARATOR = "#";
 
     public Product(Long id, String productName, float price, float weight, String color, Integer productCount) {
         this.id = id;
